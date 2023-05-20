@@ -1,13 +1,13 @@
-.header {
-    border: 5pt solid rebeccapurple;
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vmin 2vmin;
 }
 
 
-/* .profileImg{
-
-} */
-
-.imgDiv {
+/* .imgDiv {
     position: relative;
   }
   .imgDiv img {
@@ -31,4 +31,4 @@
     top: -5px;
     left: -5px;
     z-index: -1;
-  }
+  } */

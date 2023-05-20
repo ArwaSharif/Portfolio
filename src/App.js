@@ -1,18 +1,13 @@
-import './App.css';
-import Nav from './components/Nav/Nav'
-import Main from './components/Main/Main';
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-
-
-
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Nav from "./components/Nav/Nav";
+import Main from "./pages/MainPage/Main";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      Portfolio
       <Nav />
-      <Header />
       <Main />
       <Footer />
     </div>
@@ -20,3 +15,4 @@ function App() {
 }
 
 export default App;
+
